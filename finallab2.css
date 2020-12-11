@@ -3,12 +3,12 @@ box-sizing:border-box;
 }
 
 body {
-/*font-family: 'Oleo Script', cursive;*/
-  color:lightblue;
+font-family: 'Oleo Script', cursive;
+  color: #DADA00;
 /* This is the link of this google font:https://fonts.google.com/specimen/Oleo+Script?sidebar.open=true&selection.family=Oleo+Script */
 }
 
-header{
+/*header{
 background-color:#16331E;
 padding: 1em;
 text-align: center;
@@ -87,3 +87,4 @@ color:#BA5400;
 h1{
 color:orange;
 }
+*/
