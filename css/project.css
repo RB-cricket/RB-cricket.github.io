@@ -1,0 +1,122 @@
+* {
+box-sizing:border-box;
+}
+body{
+font-family: 'Langar', cursive; 
+/* this is link of this google font: https://fonts.google.com/specimen/Langar?sidebar.open=true&selection.family=Langar */
+color:#CC0050;
+}
+header {
+background-color:#CC99FF;
+padding: 2em;
+text-align: center;
+font-size: 1em;
+color:#FF0000;
+height:6em;
+}
+
+nav {
+float: left;
+width: 100%;
+height:6em;
+background: #E699FF;
+padding: 1em;
+font-size: 1em;
+}
+nav ul {
+list-style-type: none;
+padding:0;
+}
+nav ul li{
+list-style-type:none;
+float:left;
+margin: 1em;
+width:9em;
+text-align:center;
+margin-left:0em;
+}
+nav ul li a{
+text-decoration:none;
+color:#CC3300;
+display:block;
+background-color:#00FF00;
+box-shadow: 7px 7px 7px gray;
+margin-bottom:4px;
+}
+nav ul li a:hover {
+background-color:#3399FF;
+box-shadow:4px 4px 4px gray;
+border:none;
+}
+
+section{
+float:left;
+padding:2em;
+width: 40%;
+background-color:#9999FF;
+height:30em;
+}
+
+article{
+float:left;
+padding:2em;
+width: 40%;
+background-color:#9999FF;
+height:30em;
+}
+
+footer{
+background-color:#00CCFF;
+text-align:center;
+color:#6600FF;
+height:4em;
+float:left;
+width:100%;
+clear:both;
+border:3px green solid;
+}
+.subnav{
+float: left;
+width: 20%;
+height:30em;
+background-color: #9999FF;
+padding: 1em;
+font-size: 1em;
+}
+.subnav ol li a{
+text-decoration:none;
+color:#FF0000;
+display:block;
+background-color:#CCCC00;
+box-shadow: 6px 6px 6px gray;
+margin-bottom:4px;
+}
+.subnav ol li a:hover{
+background-color:#66FFFF;
+box-shadow:4px 4px 4px gray;
+border:none;
+
+}
+img{
+border: 3px green solid;
+width:250px;
+height:150px;
+}
+@media (max-width: 600px) {
+header,nav,.subnav,section,article,footer {
+width:100%;
+height:auto;
+ }
+}
+/* we visit this website: https://www.w3schools.com/css/css_table.asp
+to get information that how to give border to table by using css */
+table, th, td {
+border: 2px #BF4080 solid;
+color:#CC0000;
+}
+h1{
+color:#990099;
+}
+h2{
+color:#600080;
+}
